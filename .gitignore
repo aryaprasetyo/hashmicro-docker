@@ -1,0 +1,15 @@
+# sphinx build directories
+_build/
+
+# dotfiles
+.*
+!.gitignore
+.DS_Store
+
+/addons/*
+/basic/*
+/etc/addons/*
+/etc/sessions/*
+/etc/filestore/*
+/etc/odoo-server.log
+/postgresql
